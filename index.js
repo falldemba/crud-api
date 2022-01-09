@@ -1,8 +1,8 @@
 const express = require('express')
 const router = require('./app/routes/router')
-const mongooseConfig = require('./app/config/db.config')
+const { mongooseConfig } = require('./app/config/db.config')
 const cors = require('cors')
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 7000
 
 const app = express()
 
